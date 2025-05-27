@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Servers_service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7713F588-A652-4EA7-B757-2ACF78CFF507}|Servers_service.csproj|d:\\servers_service\\controllers\\servercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7713F588-A652-4EA7-B757-2ACF78CFF507}|Servers_service.csproj|solutionrelative:controllers\\servercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7713F588-A652-4EA7-B757-2ACF78CFF507}|Servers_service.csproj|d:\\servers_service\\services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7713F588-A652-4EA7-B757-2ACF78CFF507}|Servers_service.csproj|solutionrelative:services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7713F588-A652-4EA7-B757-2ACF78CFF507}|Servers_service.csproj|d:\\servers_service\\models\\userserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7713F588-A652-4EA7-B757-2ACF78CFF507}|Servers_service.csproj|solutionrelative:models\\userserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7713F588-A652-4EA7-B757-2ACF78CFF507}|Servers_service.csproj|d:\\servers_service\\jwt\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7713F588-A652-4EA7-B757-2ACF78CFF507}|Servers_service.csproj|solutionrelative:jwt\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Jwt.cs",
+              "DocumentMoniker": "D:\\Servers_service\\JWT\\Jwt.cs",
+              "RelativeDocumentMoniker": "JWT\\Jwt.cs",
+              "ToolTip": "D:\\Servers_service\\JWT\\Jwt.cs",
+              "RelativeToolTip": "JWT\\Jwt.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwC8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:05:58.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserServer.cs",
+              "DocumentMoniker": "D:\\Servers_service\\Models\\UserServer.cs",
+              "RelativeDocumentMoniker": "Models\\UserServer.cs",
+              "ToolTip": "D:\\Servers_service\\Models\\UserServer.cs",
+              "RelativeToolTip": "Models\\UserServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:20:18.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerController.cs",
+              "DocumentMoniker": "D:\\Servers_service\\Controllers\\ServerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServerController.cs",
+              "ToolTip": "D:\\Servers_service\\Controllers\\ServerController.cs",
+              "RelativeToolTip": "Controllers\\ServerController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T02:38:53.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Services.cs",
+              "DocumentMoniker": "D:\\Servers_service\\Services\\Services.cs",
+              "RelativeDocumentMoniker": "Services\\Services.cs",
+              "ToolTip": "D:\\Servers_service\\Services\\Services.cs",
+              "RelativeToolTip": "Services\\Services.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAIwIQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T01:01:58.647Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

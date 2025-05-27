@@ -16,34 +16,18 @@ namespace Login_service.Services
             this.db = db;
         }
 
-        private UserResponseDTO ProblemResponse(string ex)
-        {
-            return new UserResponseDTO
-            {
-                id = -1,
-                name = "",
-                photo = "",
-                email = "",
-                phone = "",
-                password = "",
-                confirm = false,
-                message = ex
-            };
-        }
-
-        public async Task<UserResponseDTO> Get(string data)
+        public async Task<dynamic> Get(string data)
         {
             try
             {
                 var user = await db.user.FirstOrDefaultAsync(u => u.email == data.ToLower() || u.name == data.ToLower());
-                var userResult = new UserResponseDTO();
                 if (user == null)
                 {
-                    userResult = ProblemResponse("usuario no encontrado");
+                    return "usuario no encontrado";
                 }
                 else
                 {
-                    userResult = new UserResponseDTO
+                    var userResult = new UserResponseDTO
                     {
                         id = user.id,
                         name = user.name,
@@ -54,18 +38,19 @@ namespace Login_service.Services
                         confirm = true,
                         message = "usuario encontrado"
                     };
+
+                    return userResult;
                 }
 
-                return userResult;
             } catch(Exception ex)
             {
-                return ProblemResponse(ex.Message);
+                return ex.Message;
             }
             
         }
 
 
-        public async Task<UserResponseDTO> Post(UserDTO user)
+        public async Task<dynamic> Post(UserDTO user)
         {
             try
             {
@@ -80,7 +65,7 @@ namespace Login_service.Services
 
                 if (await db.user.AnyAsync(u => u.email == userDb.email || u.name == userDb.name))
                 {
-                    return ProblemResponse("usuario ya existe");
+                    return "el usuario ya existe";
                 }
                 else
                 {
@@ -104,11 +89,11 @@ namespace Login_service.Services
                     
             }catch(Exception ex)
             {
-                return ProblemResponse(ex.Message);
+                return ex.Message;
             }
         }
 
-        public async Task<UserResponseDTO> Update(User user)
+        public async Task<dynamic> Update(User user)
         {
             try
             {
@@ -136,18 +121,18 @@ namespace Login_service.Services
             }
             catch(Exception ex)
             {
-                return ProblemResponse(ex.Message);
+                return ex.Message;
             }
         }
 
-        public async Task<UserResponseDTO> Delete(int id)
+        public async Task<dynamic> Delete(int id)
         {
             try
             {
                 var userDb = await db.user.FirstOrDefaultAsync(u => u.id == id);
                 if (userDb == null)
                 {
-                    return ProblemResponse("usuario no encontrado");
+                    return "usuario no encontrado";
                 }
                 else
                 {
@@ -169,7 +154,7 @@ namespace Login_service.Services
               
             }catch(Exception ex)
             {
-                return ProblemResponse(ex.Message);
+                return ex.Message;
             }
         }
     }

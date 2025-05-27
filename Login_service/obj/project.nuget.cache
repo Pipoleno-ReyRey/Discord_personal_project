@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j6a1kC5xwy0=",
+  "dgSpecHash": "NmjwFGVC2Yg=",
   "success": true,
-  "projectFilePath": "D:\\Login_service\\Login_service.csproj",
+  "projectFilePath": "D:\\Discord_personal_project\\Login_service\\Login_service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reysu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\reysu\\.nuget\\packages\\jwt\\11.0.0\\jwt.11.0.0.nupkg.sha512",

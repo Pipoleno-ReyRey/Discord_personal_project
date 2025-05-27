@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Login_service\\Login_service.csproj": {}
+    "D:\\Discord_personal_project\\Login_service\\Login_service.csproj": {}
   },
   "projects": {
-    "D:\\Login_service\\Login_service.csproj": {
+    "D:\\Discord_personal_project\\Login_service\\Login_service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Login_service\\Login_service.csproj",
+        "projectUniqueName": "D:\\Discord_personal_project\\Login_service\\Login_service.csproj",
         "projectName": "Login_service",
-        "projectPath": "D:\\Login_service\\Login_service.csproj",
+        "projectPath": "D:\\Discord_personal_project\\Login_service\\Login_service.csproj",
         "packagesPath": "C:\\Users\\reysu\\.nuget\\packages\\",
-        "outputPath": "D:\\Login_service\\obj\\",
+        "outputPath": "D:\\Discord_personal_project\\Login_service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

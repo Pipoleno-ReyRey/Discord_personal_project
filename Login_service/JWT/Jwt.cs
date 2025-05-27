@@ -14,13 +14,13 @@ namespace Login_service.JWT
 
             var claims = new List<Claim>()
             {
-                new Claim("id", user.id!.ToString()),
+                new Claim("id", user.id.ToString()!),
                 new Claim("name", user.name!.ToString()),
                 new Claim("photo", user.photo!.ToString()),
                 new Claim("phone", user.phone!.ToString()),
                 new Claim("email", user.email!.ToString()),
                 new Claim("password", user.password!.ToString()),
-                new Claim("confirm", user.confirm!.ToString()),
+                new Claim("confirm", user.confirm.ToString()!),
                 new Claim("message", user.message!.ToString())
             };
 

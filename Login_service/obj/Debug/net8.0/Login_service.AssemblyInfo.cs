@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Login_service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a5eff5c17554b9747aa4d936c59a14c4425b193")]
 [assembly: System.Reflection.AssemblyProductAttribute("Login_service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Login_service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

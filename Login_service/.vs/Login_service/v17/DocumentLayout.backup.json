@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Login_service\\",
+  "WorkspaceRootPath": "D:\\Discord_personal_project\\Login_service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|d:\\login_service\\jwt\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|solutionrelative:jwt\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|d:\\login_service\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|d:\\discord_personal_project\\login_service\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|solutionrelative:services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|d:\\login_service\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|d:\\discord_personal_project\\login_service\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|d:\\discord_personal_project\\login_service\\jwt\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E29FD94-83D1-4723-9B50-A939F28B8FB0}|Login_service.csproj|solutionrelative:jwt\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Jwt.cs",
-              "DocumentMoniker": "D:\\Login_service\\JWT\\Jwt.cs",
+              "DocumentMoniker": "D:\\Discord_personal_project\\Login_service\\JWT\\Jwt.cs",
               "RelativeDocumentMoniker": "JWT\\Jwt.cs",
-              "ToolTip": "D:\\Login_service\\JWT\\Jwt.cs",
+              "ToolTip": "D:\\Discord_personal_project\\Login_service\\JWT\\Jwt.cs",
               "RelativeToolTip": "JWT\\Jwt.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T00:09:56.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Login_service\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Discord_personal_project\\Login_service\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\Login_service\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Discord_personal_project\\Login_service\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAEkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwEIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T02:53:10.754Z"
+              "WhenOpened": "2025-05-21T02:53:10.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserServices.cs",
-              "DocumentMoniker": "D:\\Login_service\\Services\\UserServices.cs",
+              "DocumentMoniker": "D:\\Discord_personal_project\\Login_service\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "Services\\UserServices.cs",
-              "ToolTip": "D:\\Login_service\\Services\\UserServices.cs",
+              "ToolTip": "D:\\Discord_personal_project\\Login_service\\Services\\UserServices.cs",
               "RelativeToolTip": "Services\\UserServices.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwHMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T01:02:27.409Z"
+              "WhenOpened": "2025-05-21T01:02:27.409Z",
+              "EditorCaption": ""
             }
           ]
         }

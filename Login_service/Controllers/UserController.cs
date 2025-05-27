@@ -20,14 +20,13 @@ namespace Login_service.Controllers
         public async Task<IActionResult> Get(string data)
         {
             var user = await userServices.Get(data);
-            string jwt = Jwt.CreateJWT(user);
-            if (user.id != null)
+            if (user is string)
             {
-                return Ok(jwt);
+                return BadRequest(user);
             }
             else
             {
-                return BadRequest(jwt);
+                return Ok(Jwt.CreateJWT(user));
             }
         }
 
@@ -35,14 +34,13 @@ namespace Login_service.Controllers
         public async Task<IActionResult> Post([FromBody] UserDTO user)
         {
             var data = await userServices.Post(user);
-            string jwt = Jwt.CreateJWT(data);
-            if (data.id != null)
+            if (data is string)
             {
-                return Ok(jwt);
+                return BadRequest(data);
             }
             else
             {
-                return BadRequest(jwt);
+                return Ok(Jwt.CreateJWT(data));
             }
         }
 
@@ -50,14 +48,13 @@ namespace Login_service.Controllers
         public async Task<IActionResult> Put([FromBody] User user)
         {
             var data = await userServices.Update(user);
-            string jwt = Jwt.CreateJWT(data);
-            if(data.id != null)
+            if (data is string)
             {
-                return Ok(jwt);
+                return BadRequest(data);
             }
             else
             {
-                return BadRequest(jwt);
+                return Ok(Jwt.CreateJWT(data));
             }
         }
 
@@ -65,14 +62,13 @@ namespace Login_service.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var data = await userServices.Delete(id);
-            string jwt = Jwt.CreateJWT(data);
-            if (data.id != null)
+            if(data is string)
             {
-                return Ok(jwt);
+                return BadRequest(data);
             }
             else
             {
-                return BadRequest(jwt);
+                return Ok(Jwt.CreateJWT(data));
             }
         }
     }
